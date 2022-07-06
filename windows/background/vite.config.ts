@@ -6,6 +6,6 @@ const path = require('path');
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: path.resolve(__dirname, '../native/windows/background')
+    outDir: path.resolve(__dirname, '../../packages/native/windows/background')
   }
 })
