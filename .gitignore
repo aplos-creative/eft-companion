@@ -1,0 +1,4 @@
+.turbobuild/**
+dist/**
+.next/**
+node_modules/**
