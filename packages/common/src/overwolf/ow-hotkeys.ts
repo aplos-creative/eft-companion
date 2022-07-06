@@ -1,4 +1,5 @@
 // @ts-nocheck
+import "@overwolf/types";
 
 export class OWHotkeys {
 

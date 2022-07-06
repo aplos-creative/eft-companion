@@ -1,3 +1,4 @@
+import "@overwolf/types";
 export interface OWListenerDelegate {
 }
 

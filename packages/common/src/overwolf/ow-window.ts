@@ -1,4 +1,5 @@
 // @ts-nocheck
+import "@overwolf/types";
 
 type GetWindowStateResult = overwolf.windows.GetWindowStateResult;
 export class OWWindow {

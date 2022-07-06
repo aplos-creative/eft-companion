@@ -1,0 +1,33 @@
+{
+  "name": "common",
+  "version": "0.1.0",
+  "description": "Common types for EFT Companion project",
+  "private": true,
+  "author":{
+    "name": "Xavid Ramirez",
+    "email":  "xavid.ramirez@aploscreative.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "afterinstall": "npm run build",
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+    "start:dev": "npm run build:watch"
+  },
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0"
+  }
+}
