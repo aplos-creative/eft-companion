@@ -15,7 +15,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --no-cache",
     "test": "turbo run test",
     "lint": "turbo run lint",
     "dev": "turbo run dev"

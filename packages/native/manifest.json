@@ -21,12 +21,12 @@
   "data": {
     "start_window": "background",
     "hotkeys": {
-      "sample_app_showhide": {
+      "eft_app_showhide": {
         "title": "Show/Hide In-Game Window",
         "action-type": "toggle",
         "default": "Ctrl+F"
       },
-      "sample_app_second_screen": {
+      "eft_app_second_screen": {
         "title": "Toggle Second Screen Window",
         "action-type": "custom",
         "default": "Ctrl+G"
@@ -71,7 +71,7 @@
         "file": "windows/in-game/in-game.html",
         "in_game_only": true,
         "focus_game_takeover": "ReleaseOnHidden",
-        "focus_game_takeover_release_hotkey": "sample_app_showhide",
+        "focus_game_takeover_release_hotkey": "eft_app_showhide",
         "resizable": false,
         "transparent": true,
         "override_on_update": true,
