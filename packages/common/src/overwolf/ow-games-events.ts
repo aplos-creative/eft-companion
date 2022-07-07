@@ -1,5 +1,4 @@
 // @ts-nocheck
-import "@overwolf/types";
 import { Timer } from "./timer";
 
 export interface IOWGamesEventsDelegate {

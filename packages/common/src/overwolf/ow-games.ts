@@ -1,6 +1,4 @@
 // @ts-nocheck
-import "@overwolf/types";
-
 export class OWGames {
 	public static getRunningGameInfo(): Promise<overwolf.games.RunningGameInfo> {
     return new Promise((resolve) => {

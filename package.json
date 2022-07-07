@@ -18,7 +18,8 @@
     "build": "turbo run build --no-cache",
     "test": "turbo run test",
     "lint": "turbo run lint",
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "dev:desktop": "turbo run dev:desktop"
   },
   "devDependencies": {
     "@overwolf/types": "^3.19.3",

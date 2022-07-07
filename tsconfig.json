@@ -5,5 +5,5 @@
     "baseUrl": ".",
     "paths": {}
   },
-  "types": ["node"]
+  "types": ["node", "@overwolf/types"]
 }

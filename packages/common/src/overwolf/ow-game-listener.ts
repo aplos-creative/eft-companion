@@ -1,5 +1,4 @@
 // @ts-nocheck
-import "@overwolf/types";
 import { OWListener, OWListenerDelegate } from "./ow-listener";
 
 export interface OWGameListenerDelegate extends OWListenerDelegate {
