@@ -17,10 +17,16 @@ onMounted(() => {})
 </script>
 
 <template>
-  <div class="eft-desktop--wrapper"></div>
+  <div class="eft-desktop--wrapper">
+    <section class="flex justify-content-center w-full">
+      <h2>Escape from Tarkov Loot teirs</h2>
+      <p>Escape from Tarkov "loot tiers" - Ranking the most valuable items in the game</p>
+      <small>Data provided by tarkov.dev</small>
+    </section>
+  </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import '../../../global.scss';
 .eft-desktop--wrapper {
   background-color: $dark;

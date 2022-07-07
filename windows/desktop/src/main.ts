@@ -10,9 +10,12 @@ import { ApolloClients } from "@vue/apollo-composable";
 import App from './App.vue'
 import PrimeVue from 'primevue/config';
 
+
 import 'primevue/resources/themes/tailwind-light/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css'
+
+import '../../../global.scss';
 
 const additiveLink = from([
   new ApolloLink((operation, forward) => {
