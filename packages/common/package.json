@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "@aploscreative/common",
   "version": "0.1.0",
   "description": "Common types for EFT Companion project",
   "private": true,

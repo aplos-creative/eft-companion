@@ -1,5 +1,5 @@
 {
-  "name": "eft-companion",
+  "name": "@aploscreative/eft-companion",
   "version": "0.1.0",
   "workspaces": [
     "packages/*",

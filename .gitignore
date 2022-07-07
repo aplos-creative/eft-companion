@@ -3,3 +3,4 @@ dist/**
 .next/**
 node_modules/**
 packages/native/windows/**
+packages/**/dist/**
