@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aploscreative/common": "*",
     "vue": "^3.2.25"
   },
   "devDependencies": {
